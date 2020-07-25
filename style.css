@@ -68,7 +68,7 @@ body {
 
 .left-caption .btn {
     padding: 8px 24px !important;
-    border: none!important;
+    border: 1px solid #424242 !important;
     box-sizing: border-box !important;
     border-radius: 4px !important;
     color: #424242 !important;
