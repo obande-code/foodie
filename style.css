@@ -259,7 +259,7 @@ footer {
 
 @media only screen and (max-width:500px) {
     .navbar-brand {
-        margin-left: 20px !important;
+        margin-left: 12px !important;
         width: 87.07px !important;
         height: 64px !important;
     }
