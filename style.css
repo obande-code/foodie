@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 *,
 *::before,
 *::after {
@@ -10,7 +10,7 @@
 body {
     background: #FFFFFF;
     color: #424242;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .navbar {
@@ -62,6 +62,7 @@ body {
 .left-caption p {
     font-style: normal;
     font-weight: 300;
+    width: 564px;
     font-size: 1.125em;
     line-height: 22px;
     color: #424242;
