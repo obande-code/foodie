@@ -94,7 +94,7 @@ body {
 .health-text p {
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 22px;
     text-align: center;
     width: 500px;
@@ -121,10 +121,12 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .food-item img {
     margin: 18px 0;
+    overflow: hidden;
 }
 
 .food-item p {
@@ -142,7 +144,7 @@ body {
 }
 
 .dishes h1 {
-    font-size: 36px;
+    font-size: 2.25em;
     line-height: 42px;
     color: #424242;
     text-align: center;
@@ -165,11 +167,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .food-pricing h1 {
     margin-top: 27px;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 33px;
     color: #424242;
 }
@@ -179,7 +182,7 @@ body {
     height: 66px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 22px;
     text-align: center;
     color: #424242;
@@ -189,7 +192,7 @@ footer {
     background: #424242;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 29px;
     display: flex;
     flex-direction: column;
@@ -204,7 +207,7 @@ footer {
 .quote p {
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 29px;
     color: #FF7F00;
     margin-bottom: 45px;
@@ -213,7 +216,7 @@ footer {
 .copyright .p {
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 29px;
     color: #FF7F00;
     margin-bottom: 45px;
@@ -246,11 +249,10 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin-top: 164px;
+        margin-top: 30px;
     }
     .left-caption {
-        width: 90%;
-        margin: auto;
+        margin: 60px;
     }
     .health-text {
         width: 90%;
@@ -279,6 +281,10 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+    .copyright {
+        width: 80%;
         text-align: center;
     }
 }
