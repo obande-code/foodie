@@ -35,6 +35,7 @@ body {
     border: 1px solid #FF7F00 !important;
     box-sizing: border-box !important;
     border-radius: 4px !important;
+    color: #FF7F00;
 }
 
 .hero {
@@ -67,9 +68,14 @@ body {
 
 .left-caption .btn {
     padding: 8px 24px !important;
-    border: 1px solid #424242 !important;
+    border: none!important;
     box-sizing: border-box !important;
     border-radius: 4px !important;
+    color: #424242 !important;
+}
+
+.left-caption .btn :hover {
+    color: white;
 }
 
 .right-img img {
